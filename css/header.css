@@ -1,0 +1,65 @@
+
+.header {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.navegacao {
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1.875rem 0 0 0;
+}
+#logo {
+    display: block;
+    height: 19px;
+    width: 100px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    list-style: none;
+}
+.menu li a {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: #A5B6C6;
+    font-size: 1.125rem;
+    
+}
+.menu li a:hover {
+    color: #00499C;
+}
+
+.carrin-compras {
+    margin: 0px;
+    display: block;
+}
+
+.btnCompras {
+    display: block;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+.detanhes-menu {
+    display: flex;
+    align-items: center;
+    
+}
+.detanhes-menu :nth-child(1) {
+    height: 28px;
+    width: 28px;
+    min-width: auto;
+    min-height:auto;
+    cursor: pointer;
+}
+.detanhes-menu :nth-child(2) {
+    height: 39px;
+    width: 39px;
+    margin-left: 26px;
+}

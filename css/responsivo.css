@@ -1,0 +1,155 @@
+
+
+@media (max-width:730px) {
+    #vendas {
+        flex-wrap: wrap;
+        margin: 25px auto;
+        overflow: hidden;
+    }
+    .carrosel-conteiner {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    .imagens-produto {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    .vendas-2 {
+        margin: 0 auto;
+        overflow: hidden;
+        width: 100%;
+    }
+    .valores {
+       margin-top: 40px;
+       max-width: 70%;
+    }
+    .valores-2 h1 {
+        font-size: 1.625rem;
+    }
+    .conteiner-cc {
+        flex-wrap: wrap;
+    }
+    .controlador {
+        width: 100%;
+        justify-content: space-around;
+        padding: 0.9375rem 1.25rem;
+    }
+    .btn-carrinho {
+        width: 100%;
+        justify-content: center;
+        padding: 0.9375rem 1.25rem;
+    }
+    .cart-carrinho {
+        left: 30%;
+        margin: 0 auto;
+        max-width: 68%;
+    }
+    .produtor1 {
+        padding-top: 1.25rem;
+    }
+    .pd-flex p {
+       margin: 0;
+    }
+    .btn-check {
+        margin-top: 15px;
+        padding: 0.9375rem 0;
+        font-size: 0.875rem;
+    }
+    .estoque-quantidade {
+        top: 4%;
+    }
+    
+}
+
+
+@media (min-width:730px) and (max-width:1000px)  {
+    .navegacao {
+        justify-content: space-between;
+        max-width: 95%;
+        padding-right: 1.5625rem;
+    }
+
+    .menu li a {
+        font-size: 0.9375rem;
+    }
+
+    #vendas {
+        max-width: 55%;
+        padding: 0 1.125rem;
+        margin-top: 40px;
+    }
+
+   .imagens-produto {
+    max-width:90%;
+    margin: 0 auto;
+   }
+
+   .carrosel-conteiner {
+    max-width:90%; 
+     margin: 0 auto;
+   }
+   .valores {
+    width: 100%;
+    margin-right: 20px;
+   }
+
+   .valores-2 h1 {
+    font-size: 35px;
+    margin-top: 2px;
+   }
+
+   .vendas-2 {
+    margin: 0 auto;
+   }
+
+   .btn-carrinho {
+    width: 180px;
+    text-align: center;
+    padding:0.7rem 1.875rem;;
+}  
+}
+
+
+@media (max-width:423px) {
+    .imagens-produto {
+        max-width:70% ;
+    }
+    .header {
+        width: 100%;
+    }
+    .carrosel-conteiner {
+        max-width:70%;
+    }
+    .imagens-produto {
+        width: 100%;
+        gap: 20px;
+    }
+    .valores {
+        max-width:70% ;
+    }
+
+    .estoque-quantidade {
+        top: 4%;
+    }
+}
+
+@media (max-width:360px) {
+    .imagens-produto {
+        max-width:70%;
+    }
+    .carrosel-conteiner {
+        max-width:70%;
+    }
+    .imagens-produto img {
+        border-radius: 10px;
+    }
+    .valores {
+        max-width:70%;
+    }
+}
+
+@media (max-width:360px) {
+    .cart-carrinho {
+        max-width:70%;
+    }
+}

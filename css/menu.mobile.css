@@ -1,0 +1,99 @@
+
+
+[data-menu="button"] {
+    border: none;
+    display: block;
+    background-color: #FF7D1A;
+    color: white;
+    text-transform: uppercase;
+    margin: 0px;
+    display: none;
+    border-radius: 8px;
+    padding: 0.625rem 0.9375rem;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 29px 33px -13px rgba(150, 150, 150, 0.24);
+}
+
+
+@media (max-width:730px) {
+    [data-menu="button"]  {
+        display: flex;
+        align-items: center;
+        position: relative;
+        margin-left: 10px;
+        z-index: 300;
+    }
+
+    [data-menu="button"]::before {
+        content: '';
+        display: inline-block;
+        height: 2px;
+        width: 13px;
+        background: #fff;
+        box-shadow: 0 4px #fff, 0 -4px #fff;
+        margin-right: 5px;
+        transition: .3s;
+    }
+
+    [data-menu="button"].active::before {
+        transform: rotate(90deg);
+    }
+
+    [data-menu="list"] {
+        display:none;
+        position: absolute;
+        width: 250px;
+        flex-direction: column;
+        z-index: 200;
+        text-align:left ;
+        border-radius: 8px;
+        top: 10%;
+        left: 0%;
+        height: auto;
+        padding: 1.875rem 0.625rem 1.25rem 0.625rem;
+        box-shadow: 0px 0px 16px -4px rgba(150, 150, 150, 0.24);
+        background-color: #fff;
+        animation: burgue .3s forwards;
+    }
+    
+    [data-menu="list"] li a {
+        margin-bottom: 20px;
+        display: block;
+        color: black;
+    }
+
+    [data-menu="list"].active {
+        display: block;
+        padding: 30px;
+    }
+
+    @keyframes burgue {
+        from {
+            opacity: 0;
+            transform: translate3d(-40px,0,0);
+        }
+        to {
+            opacity: 1;
+            transform: translate3d(0,0,0);
+        }
+    }
+
+    .navegacao {
+        padding-right: 41px;  
+        margin: 0 auto;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .conteiner-mobile {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin: 0px;
+    }
+    #logo {
+        width: 80px;
+        height: 15px;
+    }
+
+}
