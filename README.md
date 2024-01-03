@@ -3,7 +3,7 @@
 
 ## 🛒 Introdução
 
-Este um projeto de páginas de vendas de um E-commerce onde os usuários são capazes:
+Este um projeto de páginas de vendas de um E-commerce onde os usuários são capazes:     
 • De selecionar a quantidade de produtos        
 • Adicionar os produtos ao carrinho        
 • Visualize o carrinho e remova os produtos dele         
